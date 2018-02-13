@@ -4,6 +4,8 @@ import Rectangle from './shapes/Rectangle';
 import RoundedRectangle from './shapes/RoundedRectangle';
 import Field from './snippets/Field';
 import ListRow from './snippets/ListRow';
+import Image from './snippets/Image';
+import Card from './widgets/Card';
 
 export default class extends Component {
   render() {
@@ -13,11 +15,12 @@ export default class extends Component {
       <Rectangle /><br />
       <RoundedRectangle />
       <h2>Snippets</h2>
-      <Field labelPosition='top' />
-      <Field labelPosition='left' rounded />
+      <Field labelPosition="top" />
+      <Field labelPosition="left" rounded />
       <ListRow hasActionBar hasCheckboxes />
+      <Image width="100px" height="100px" />
       <h2>Widgets</h2>
-      ...
+      <Card />
     </div>
   }
 }

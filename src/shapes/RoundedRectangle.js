@@ -7,6 +7,7 @@ const RoundedRectShape = styled.div`
   border-radius: 6px;
   width: ${props => props.width};
   height: ${props => props.height};
+  overflow: hidden;
 `;
 
 RoundedRectShape.propTypes = {

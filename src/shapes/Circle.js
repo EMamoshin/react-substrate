@@ -7,6 +7,7 @@ const CircleShape = styled.div`
   border-radius: 50%;
   width: ${props => props.radius};
   height: ${props => props.radius};
+  overflow: hidden;
 `;
 
 CircleShape.propTypes = {
